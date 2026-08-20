@@ -1,0 +1,7 @@
+# Core pipeline. ultralytics pulls in torch and numpy.
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+gradio>=4.0.0
+
+# Notebook only (inline visualisation)
+matplotlib>=3.7.0

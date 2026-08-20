@@ -1,0 +1,47 @@
+# ── Secrets and local configuration ──────────────────────────────────────────
+# Listed even when these files do not exist yet: the day one gets created,
+# `git add -A` would take it in without a word.
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+*.pem
+*.key
+id_rsa*
+*.p12
+config.local.*
+
+# ── Generated at runtime ─────────────────────────────────────────────────────
+*.log
+data/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Node ─────────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+build/
+
+# ── Editors ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+
+# ── Large media (keep it out of git; use a link or Git LFS) ──────────────────
+*.mp4
+*.mov
+*.parquet
+
+# Model weights distributed via GitHub Release, not committed
+models/Ocr.pt
