@@ -106,7 +106,14 @@ models/
   LP.pt                    plate detector (committed)
   Ocr.pt                   character OCR (from the release)
 examples/                  your test media goes here
+paper/
+  ANPR_report.pdf          project report
 ```
+
+## Report
+
+The full project report is in [`paper/ANPR_report.pdf`](paper/ANPR_report.pdf) —
+methodology, dataset, experiments and results.
 
 ## Authors
 
